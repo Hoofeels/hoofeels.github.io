@@ -1,5 +1,8 @@
 # Seunghoo Jeong — 개인 홈페이지 (정적 사이트)
 
+🌐 **배포 중:** <https://hoofeels.github.io/portfolio-site/>
+📦 **저장소:** <https://github.com/Hoofeels/portfolio-site> (GitHub Pages, `main` 브랜치)
+
 Weebly(`hoofeels.weebly.com`)에서 옮겨온 학술 개인 홈페이지입니다.
 순수 HTML/CSS/JS로만 만들어져 **빌드 과정이 없고**, 어떤 정적 호스팅에도 그대로 올라갑니다.
 **무료 · 광고 없음 · 본인 소유 · 업체 종속 없음.**
@@ -65,10 +68,19 @@ python -m http.server 8000
 3. 끝. `프로젝트이름.pages.dev` 무료 주소가 즉시 발급됩니다. (광고 없음)
 4. 수정했을 땐 같은 화면에서 폴더를 다시 업로드.
 
-### ② GitHub Pages
+### ② GitHub Pages ✅ 현재 이 방식으로 배포 중
 1. GitHub 새 저장소 생성 → 이 폴더 파일들을 업로드(또는 `git push`).
 2. 저장소 **Settings → Pages → Branch: main / root** 선택 → Save.
 3. `사용자이름.github.io/저장소이름` 주소로 공개됩니다.
+
+**수정 후 반영하기** (이 저장소는 이미 연결돼 있음):
+```powershell
+cd C:\Users\USER\projects\portfolio-site
+git add -A
+git commit -m "수정 내용 요약"
+git push           # 1~2분 뒤 사이트 자동 갱신
+```
+또는 GitHub 웹에서 파일을 열어 ✏️ 편집 → "Commit changes" 해도 자동 반영됩니다.
 
 ### ③ Netlify Drop
 1. <https://app.netlify.com/drop> 접속.
