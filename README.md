@@ -38,7 +38,7 @@ portfolio-site/
 또는 (한글 폰트/경로까지 정확히 보려면) 터미널에서:
 
 ```powershell
-cd C:\Users\USER\projects\portfolio-site
+cd "C:\Users\USER\Dropbox\hoofeels\정승후_정보\portfolio-site"
 # 파이썬이 있다면
 python -m http.server 8000
 # 브라우저에서 http://localhost:8000 접속
@@ -75,7 +75,7 @@ python -m http.server 8000
 
 **수정 후 반영하기** (이 저장소는 이미 연결돼 있음):
 ```powershell
-cd C:\Users\USER\projects\portfolio-site
+cd "C:\Users\USER\Dropbox\hoofeels\정승후_정보\portfolio-site"
 git add -A
 git commit -m "수정 내용 요약"
 git push           # 1~2분 뒤 사이트 자동 갱신
