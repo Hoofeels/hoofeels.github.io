@@ -1,0 +1,9 @@
+# Scratch / temporary
+_raw_weebly/
+
+# OS / editor
+Thumbs.db
+.DS_Store
+*.log
+.vscode/
+.idea/
