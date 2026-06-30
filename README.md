@@ -1,7 +1,7 @@
 # Seunghoo Jeong — 개인 홈페이지 (정적 사이트)
 
-🌐 **배포 중:** <https://hoofeels.github.io/portfolio-site/>
-📦 **저장소:** <https://github.com/Hoofeels/portfolio-site> (GitHub Pages, `main` 브랜치)
+🌐 **배포 중:** <https://hoofeels.github.io/>
+📦 **저장소:** <https://github.com/Hoofeels/hoofeels.github.io> (GitHub Pages 사용자 사이트, `main` 브랜치 root)
 
 Weebly(`hoofeels.weebly.com`)에서 옮겨온 학술 개인 홈페이지입니다.
 순수 HTML/CSS/JS로만 만들어져 **빌드 과정이 없고**, 어떤 정적 호스팅에도 그대로 올라갑니다.
