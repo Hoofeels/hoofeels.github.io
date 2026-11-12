@@ -214,6 +214,13 @@ main { display: block; }
 .news-date { font-weight: 700; color: var(--accent); font-size: .9rem; }
 .news-body h3 { margin: 0 0 4px; font-size: 1rem; }
 .news-body p { margin: 0; color: var(--text-soft); font-size: .92rem; }
+.news-body .news-links { margin-top: 6px; font-size: .88rem; }
+.news-media { margin: 12px 0 0; max-width: 520px; }
+.news-media img {
+  display: block; width: 100%; height: auto;
+  border-radius: 10px; border: 1px solid var(--border);
+}
+.news-media figcaption { margin-top: 6px; color: var(--text-faint); font-size: .8rem; }
 
 /* ---------- Gallery + slideshow ---------- */
 .gallery-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 16px; }
